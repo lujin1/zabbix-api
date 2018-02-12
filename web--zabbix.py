@@ -108,7 +108,7 @@ if __name__ == "__main__":
     # hostid = "10279"
 
     name_url = {
-
+        "name": "url",
     }
     # hostid = "10281"
     # name_url = {
