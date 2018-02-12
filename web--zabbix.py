@@ -106,24 +106,12 @@ class zabbix_api:
 if __name__ == "__main__":
     zabbix = zabbix_api()
     # hostid = "10279"
-    # name = "云科-认证平台"
-    # url = "http://117.161.11.38:8090"
+
     name_url = {
-        "云科-认证平台": "http://117.161.11.38:8090",
-        "云科-接口": "http://117.161.11.38:9000/auth_inter/his/inhospital/queryPrefeeMaster.next?INPATIENT_NO=11&HOSPITAL_MARK=11",
-        "云科-his": "http://117.161.11.38:9001/his",
-        "云科-pacs": "http://117.161.11.38:8080",
-        "云科-hcrm": "117.161.11.38:8081/cloud"
+
     }
     # hostid = "10281"
     # name_url = {
-    #     "闻康-认证平台1": "http://39.106.134.248",
-    #     "闻康-认证平台2": "http://39.106.131.226",
-    #     "闻康-HIS-1": "http://47.93.198.168/login.htm",
-    #     "闻康-HIS-2": "http://39.106.134.171/login.htm",
-    #     "闻康-接口": "http://59.110.145.248/auth_inter/his/inhospital/queryPrefeeMaster.next?INPATIENT_NO=11&HOSPITAL_MARK=11",
-    #     "闻康-pacs1": "http://39.106.134.230/main/login.jsp",
-    #     "闻康-pacs2": "http://39.106.134.242/main/login.jsp"
     # }
 
     # print type(name_url)
